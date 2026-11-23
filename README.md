@@ -6,7 +6,7 @@ A curated collection of medical world model papers, code, datasets, and benchmar
 
 # 能力等级
 
-基于综述 [Beyond Generative AI: World Models for Clinical Prediction, Counterfactuals, and Planning](https://arxiv.org/abs/2511.16333) 提出的能力框架：
+综述 [Beyond Generative AI](https://arxiv.org/abs/2511.16333) 提出的能力框架：
 
 | **级别** | **名称** | **能力** | **示例** |
 |-|-|-|-|
@@ -17,7 +17,7 @@ A curated collection of medical world model papers, code, datasets, and benchmar
 
 # 六大应用领域
 
-基于综述 [Medical world models in healthcare: foundations, applications, and challenges for trustworthy clinical translation](https://arxiv.org/abs/2607.25242v1)提出的应用领域划分。六类应用覆盖从患者、器官与设备到人群卫生系统的多个尺度，共享“当前状态 + 动作/上下文 → 未来状态”的建模逻辑；各领域彼此交叠，功能能力不代表临床证据已经成熟。
+综述 [Medical world models in healthcare](https://arxiv.org/abs/2607.25242v1)提出的应用领域划分。六类应用覆盖从患者、器官与设备到人群卫生系统的多个尺度，共享“当前状态 + 动作/上下文 → 未来状态”的建模逻辑；各领域彼此交叠，功能能力不代表临床证据已经成熟。
 
 ![六大应用领域](https://aka.doubaocdn.com/s/qRk82EQAg2)
 
