@@ -1,4 +1,4 @@
-# Medical-World-Models
+# 医学世界模型
 
 A curated collection of medical world model papers, code, datasets, and benchmarks.
 
