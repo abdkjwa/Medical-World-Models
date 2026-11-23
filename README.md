@@ -22,7 +22,7 @@ A curated collection of medical world model papers, code, datasets, and benchmar
 |-|-|-|-|-|-|
 | **MeWM** | 肝癌 TACE 介入方案优选，<br/>仿真治疗后肿瘤影像变化，<br/>评估生存风险。 | ✅ [开源](https://github.com/scott-yjyang/MeWM) | 训练集：HCC-TACE（338 对肝脏 CT + 手术报告）<br/>验证集：HCC-TACE-Seg（78 例肝脏 CT） | ❌ 训练集为医院私有数据<br/>✅ 验证集可公开申请 | ❌ 无法完整复现全量训练<br/>✅ 可复现推理、验证集评估 |
 | **HounsWorld** | CT 影像世界模型基准，统一评测重建、视觉问答、干预仿真三类任务。 | ✅ [开源](https://github.com/byhwhite/HounsWorld) | HounsBench 基准数据集，基于 CT-RATE、M3D 构建，含胸部/腹部 CT，共 1.43M 样本 | ✅ 完全公开 | ✅ 可完整复现训练与所有基准实验 |
-| **DiffTumor** | 多器官肿瘤影像生成，<br/>用于数据增强与肿瘤形态模拟。 | ✅ 第三方开源实现 | BraTS（脑肿瘤）、LiTS（肝脏肿瘤）等公开肿瘤影像数据集 | ✅ 基础数据集公开 | ⚠️ 基础版本可复现 |
+| **DiffTumor** | 多器官肿瘤影像生成，<br/>用于数据增强与肿瘤形态模拟。 | ✅ [开源](https://github.com/MrGiovanni/DiffTumor) | BraTS（脑肿瘤）、LiTS（肝脏肿瘤）等公开肿瘤影像数据集 | ✅ 基础数据集公开 | ⚠️ 基础版本可复现 |
 
 ## 潜状态动力学派
 
@@ -48,9 +48,9 @@ A curated collection of medical world model papers, code, datasets, and benchmar
 
 | **项目名称** | **核心工作** | **GitHub代码** | **对应数据集** | **数据公开性** | **能否完整复现** |
 |-|-|-|-|-|-|
-| **SurgWM** | 无标注手术视频生成，<br/>预测后续手术画面与器械运动。 | ✅ 开源 | SurgToolLoc-2022<br/>（达芬奇腹部外科手术视频） | ✅ 公开可申请下载 | ✅ 可完整复现训练、推理全流程 |
-| **SWoMo** | 白内障手术过程仿真，<br/>模拟器械与组织交互。 | ✅ 开源 | CATARACTS、Cataract-1k<br/>（眼科白内障手术视频） | ✅ 完全公开 | ✅ 可完整复现 |
-| **WM-Grasp（GAS）** | 外科机器人抓取仿真，<br/>输出抓取策略与组织形变。 | ✅ 开源 | 公开手术抓取视频数据集<br/>（腹部软组织抓取） | ✅ 公开 | ✅ 可复现抓取仿真与控制实验 |
-| **Cosmos-H-Surgical** | 带物理约束的手术交互仿真，<br/>支持机器人控制。 | ✅ 开源 | 官方合成数据集；<br/>真实临床数据需自备 | ✅ 合成数据公开 | ✅ 可完整复现 demo 与合成实验 |
+| **SurgWM** | 无标注手术视频生成，<br/>预测后续手术画面与器械运动。 | ✅ [开源](https://github.com/bhattarailab/Surgical-Vision-World-Model) | SurgToolLoc-2022<br/>（达芬奇腹部外科手术视频） | ✅ 公开可申请下载 | ✅ 可完整复现训练、推理全流程 |
+| **SWoMo** | 白内障手术过程仿真，<br/>模拟器械与组织交互。 | ✅ [开源](https://github.com/MECLabTUDA/SWoMo) | CATARACTS、Cataract-1k<br/>（眼科白内障手术视频） | ✅ 完全公开 | ✅ 可完整复现 |
+| **WM-Grasp（GAS）** | 外科机器人抓取仿真，<br/>输出抓取策略与组织形变。 | ✅ [开源](https://github.com/linhongbin/gas) | 公开手术抓取视频数据集<br/>（腹部软组织抓取） | ✅ 公开 | ✅ 可复现抓取仿真与控制实验 |
+| **Cosmos-H-Surgical** | 带物理约束的手术交互仿真，<br/>支持机器人控制。 | ✅ [开源](https://github.com/NVIDIA-Medtech/Cosmos-H-Surgical) | 官方合成数据集；<br/>真实临床数据需自备 | ✅ 合成数据公开 | ✅ 可完整复现 demo 与合成实验 |
 | **SurgWorld** | 通用外科场景视觉仿真。 | ❌ 未公开完整代码 | 私有手术文本-视频对齐数据集 | ❌ 不公开 | ❌ 无法独立完整复现 |
 | **MedOS** | 大型多模态外科世界模型，<br/>手术仿真与操作规划。 | ❌ 未公开完整代码 | MedSuperVision<br/>（8.5 万小时多科室手术视频） | ❌ 不公开 | ❌ 无法复现 |
