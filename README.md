@@ -6,7 +6,7 @@ A curated collection of medical world model papers, code, datasets, and benchmar
 
 # 能力等级
 
-基于 [Beyond Generative AI: World Models for Clinical Prediction, Counterfactuals, and Planning](https://arxiv.org/abs/2511.16333) 提出的能力框架：
+基于综述 [Beyond Generative AI: World Models for Clinical Prediction, Counterfactuals, and Planning](https://arxiv.org/abs/2511.16333) 提出的能力框架：
 
 | **级别** | **名称** | **能力** | **示例** |
 |-|-|-|-|
@@ -17,11 +17,11 @@ A curated collection of medical world model papers, code, datasets, and benchmar
 
 # 六大应用领域
 
-应用领域划分参考综述 [Medical world models in healthcare: foundations, applications, and challenges for trustworthy clinical translation](https://arxiv.org/abs/2607.25242v1)。六类应用覆盖从患者、器官与设备到人群卫生系统的多个尺度，共享“当前状态 + 动作/上下文 → 未来状态”的建模逻辑；各领域彼此交叠，功能能力不代表临床证据已经成熟。
+基于综述 [Medical world models in healthcare: foundations, applications, and challenges for trustworthy clinical translation](https://arxiv.org/abs/2607.25242v1)提出的应用领域划分。六类应用覆盖从患者、器官与设备到人群卫生系统的多个尺度，共享“当前状态 + 动作/上下文 → 未来状态”的建模逻辑；各领域彼此交叠，功能能力不代表临床证据已经成熟。
 
 ![六大应用领域](https://aka.doubaocdn.com/s/qRk82EQAg2)
 
-# 医学世界模型五大技术路线
+# 五大技术路线
 
 | **技术路线** | **核心思想** | **代表性工作** |
 |-|-|-|
@@ -31,7 +31,7 @@ A curated collection of medical world model papers, code, datasets, and benchmar
 | **因果治疗效应派** | 聚焦干预 - 结局的因果关系估计，消除临床混杂偏倚，估计干预本身带来的反事实疗效差异 | 因果生存分析模型、EHR反事实治疗效应系列 |
 | **手术与具身交互派** | 建模器械与软组织的交互动力学，支撑术中交互仿真与机器人控制 | WM-Grasp、外科机器人交互仿真模型 |
 
-# 医学世界模型开源项目复现性核查表
+# 开源项目复现性核查表
 
 ## 生成式观测派
 
