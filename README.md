@@ -20,8 +20,8 @@ A curated collection of medical world model papers, code, datasets, and benchmar
 
 | **项目名称** | **核心工作** | **GitHub代码** | **对应数据集** | **数据公开性** | **能否完整复现** |
 |-|-|-|-|-|-|
-| **MeWM** | 肝癌 TACE 介入方案优选，<br/>仿真治疗后肿瘤影像变化，<br/>评估生存风险。 | ✅ 开源<br/>[MeWM](https://github.com/scott-yjyang/MeWM) | 训练集：HCC-TACE（338 对肝脏 CT + 手术报告）<br/>验证集：HCC-TACE-Seg（78 例肝脏 CT） | ❌ 训练集为医院私有数据<br/>✅ 验证集可公开申请 | ❌ 无法完整复现全量训练<br/>✅ 可复现推理、验证集评估 |
-| **HounsWorld** | CT 影像世界模型基准，统一评测重建、视觉问答、干预仿真三类任务。 | ✅ 开源<br/>[HounsWorld](https://github.com/byhwhite/HounsWorld) | HounsBench 基准数据集，基于 CT-RATE、M3D 构建，含胸部/腹部 CT，共 1.43M 样本 | ✅ 完全公开 | ✅ 可完整复现训练与所有基准实验 |
+| **MeWM** | 肝癌 TACE 介入方案优选，<br/>仿真治疗后肿瘤影像变化，<br/>评估生存风险。 | ✅ [开源](https://github.com/scott-yjyang/MeWM) | 训练集：HCC-TACE（338 对肝脏 CT + 手术报告）<br/>验证集：HCC-TACE-Seg（78 例肝脏 CT） | ❌ 训练集为医院私有数据<br/>✅ 验证集可公开申请 | ❌ 无法完整复现全量训练<br/>✅ 可复现推理、验证集评估 |
+| **HounsWorld** | CT 影像世界模型基准，统一评测重建、视觉问答、干预仿真三类任务。 | ✅ [开源](https://github.com/byhwhite/HounsWorld) | HounsBench 基准数据集，基于 CT-RATE、M3D 构建，含胸部/腹部 CT，共 1.43M 样本 | ✅ 完全公开 | ✅ 可完整复现训练与所有基准实验 |
 | **DiffTumor** | 多器官肿瘤影像生成，<br/>用于数据增强与肿瘤形态模拟。 | ✅ 第三方开源实现 | BraTS（脑肿瘤）、LiTS（肝脏肿瘤）等公开肿瘤影像数据集 | ✅ 基础数据集公开 | ⚠️ 基础版本可复现 |
 
 ## 潜状态动力学派
@@ -30,19 +30,19 @@ A curated collection of medical world model papers, code, datasets, and benchmar
 |-|-|-|-|-|-|
 | **CLARITY** | 多模态肿瘤治疗规划，<br/>长时序病程推演与预后评估。 | ⚠️ 仅公开项目主页 | 私有肿瘤影像 + 临床随访数据 | ❌ 不公开 | ❌ 暂无法完整复现 |
 | **EHRWorld** | 基于电子病历的患者轨迹推演，<br/>干预方案反事实对比。 | ⚠️ 官方版本未开源<br/>第三方基准实现较多 | MIMIC-IV、eICU<br/>（重症监护病房结构化病历） | ✅ 基础数据集公开 | ⚠️ 第三方基准版本可复现 |
-| **TrajectoryWorld** | 慢性病病程预测与干预效果模拟。 | ✅ 开源<br/>[TrajWorld](https://github.com/thuml/TrajWorld) | MIMIC-IV 慢病子集<br/>（糖尿病、高血压等慢病病历） | ✅ 公开 | ✅ 基础版本可完整复现 |
+| **TrajectoryWorld** | 慢性病病程预测与干预效果模拟。 | ✅ [开源](https://github.com/thuml/TrajWorld) | MIMIC-IV 慢病子集<br/>（糖尿病、高血压等慢病病历） | ✅ 公开 | ✅ 基础版本可完整复现 |
 
 ## 生理机理约束派
 
 | **项目名称** | **核心工作** | **GitHub代码** | **对应数据集** | **数据公开性** | **能否完整复现** |
 |-|-|-|-|-|-|
-| **PINN 药代动力学世界模型** | 个体化药物代谢仿真，<br/>模拟不同给药方案的体内浓度变化。 | ✅ 开源<br/>• [D-PINNs](https://github.com/ntua-unit-of-control-and-informatics/d-pinns-pharmacokinetics)<br/>• [ChemODE](https://github.com/Wit-K/ChemODE) | 公开药代动力学临床试验数据集（全身循环药物浓度） | ✅ 公开 | ✅ 基础机理模型可完整复现 |
+| **PINN 药代动力学世界模型** | 个体化药物代谢仿真，<br/>模拟不同给药方案的体内浓度变化。 | D-PINNs：✅ [开源](https://github.com/ntua-unit-of-control-and-informatics/d-pinns-pharmacokinetics)<br/>ChemODE：✅ [开源](https://github.com/Wit-K/ChemODE) | 公开药代动力学临床试验数据集（全身循环药物浓度） | ✅ 公开 | ✅ 基础机理模型可完整复现 |
 
 ## 因果治疗效应派
 
 | **项目名称** | **核心工作** | **GitHub代码** | **对应数据集** | **数据公开性** | **能否完整复现** |
 |-|-|-|-|-|-|
-| **CausalEHR-WM** | EHR 反事实疗效对比，<br/>校正混杂偏倚，<br/>评估治疗真实获益。 | ✅ 开源<br/>[physicausal](https://github.com/Fengrru/physicausal) | MIMIC-IV、eICU<br/>（重症监护病历） | ✅ 公开 | ✅ 基础版本可完整复现 |
+| **CausalEHR-WM** | EHR 反事实疗效对比，<br/>校正混杂偏倚，<br/>评估治疗真实获益。 | ✅ [开源](https://github.com/Fengrru/physicausal) | MIMIC-IV、eICU<br/>（重症监护病历） | ✅ 公开 | ✅ 基础版本可完整复现 |
 
 ## 手术与具身交互派
 
