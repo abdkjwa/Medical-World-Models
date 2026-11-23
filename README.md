@@ -19,14 +19,7 @@ A curated collection of medical world model papers, code, datasets, and benchmar
 
 应用领域划分参考综述 [Medical world models in healthcare: foundations, applications, and challenges for trustworthy clinical translation](https://arxiv.org/abs/2607.25242v1)。六类应用覆盖从患者、器官与设备到人群卫生系统的多个尺度，共享“当前状态 + 动作/上下文 → 未来状态”的建模逻辑；各领域彼此交叠，功能能力不代表临床证据已经成熟。
 
-| **应用领域** | **状态与动作** | **时间范围** | **验证重点** | **代表性工作** |
-|-|-|-|-|-|
-| **医学影像表征与未来观测模拟** | 状态：影像与潜在解剖表征<br/>动作：视角、采集或观测条件变化 | 跨视角到未来观测 | 重建、迁移及下游临床任务 | CheXWorld、Xray2Xray、GazeWorld |
-| **EHR 与纵向患者轨迹建模** | 状态：纵向事件、病历、检验和生命体征<br/>动作：医疗事件与干预 | 数小时至数年 | 轨迹一致性及外部队列 | EHRWorld、ChronoMedicalWorld |
-| **疾病进展与治疗响应模拟** | 状态：患者或病灶状态及疾病轨迹<br/>动作：治疗方案与时机 | 随访至长期纵向观察 | 回顾性轨迹保真；还需因果与临床验证 | MeWM、CLARITY、TaDiff、Brain-WM |
-| **生理信号与多模态状态建模（新兴方向）** | 状态：ECG、波形、检验、生命体征及多模态生理数据<br/>动作：可用时纳入治疗、行为或设备上下文 | 数秒至数月 | 预测、校准及外部队列 | HealthFormer |
-| **超声引导与手术具身交互** | 状态：图像运动、探头位姿；手术视频、器械与组织<br/>动作：探头移动、器械或机器人动作 | 从下一视图到手术流程片段 | 引导误差、目标切面成功率及控制指标 | Cardiac Copilot、EchoWorld、SAW |
-| **人群与卫生系统模拟（新兴方向）** | 状态：时空聚合健康指标<br/>动作：政策或资源配置干预 | 数月至数年 | 留出时间或地区；结局校准 | Policy400D |
+![六大应用领域](https://aka.doubaocdn.com/s/qRk82EQAg2)
 
 # 医学世界模型五大技术路线
 
