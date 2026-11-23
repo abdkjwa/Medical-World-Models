@@ -6,7 +6,7 @@ A curated collection of medical world model papers, code, datasets, and benchmar
 
 # 能力等级
 
-基于 Qazi 等人（2025）提出的能力框架：
+基于 [Qazi 等人（2025）](https://arxiv.org/abs/2511.16333) 提出的能力框架：
 
 | **级别** | **名称** | **能力** | **示例** |
 |-|-|-|-|
